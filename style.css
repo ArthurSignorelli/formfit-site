@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #0b0d20;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+nav h1 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00ff5e;
+}
+
+.banner {
+  background: url('https://st.depositphotos.com/3154885/4025/i/450/depositphotos_40259443-stock-photo-olympic-weights.jpg') no-repeat center center/cover;
+  padding: 6rem 2rem;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 3px #000;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  background-color: #0b0d20;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
