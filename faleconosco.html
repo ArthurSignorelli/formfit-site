@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fale Conosco - FormFit</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>FormFit</h1>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="faleconosco.html">Fale Conosco</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Fale Conosco</h2>
+    <p>Preencha o formulário e entraremos em contato.</p>
+    <form id="formContato">
+      <input type="text" id="nome" placeholder="Seu nome" required />
+      <input type="email" id="email" placeholder="Seu email" required />
+      <textarea id="mensagem" placeholder="Sua mensagem" rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="voltar-btn">
+      <a href="index.html"><button>Voltar ao Início</button></a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 FormFit Academia.</p>
+  </footer>
+
+  <script type="module" src="js/faleconosco.js"></script>
+</body>
+</html>

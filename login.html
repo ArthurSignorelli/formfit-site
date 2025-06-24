@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - FormFit</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>FormFit</h1>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="faleconosco.html">Fale Conosco</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Login</h2>
+    <input type="email" id="email" placeholder="Email" />
+    <input type="password" id="senha" placeholder="Senha" />
+    <button onclick="login()">Entrar</button>
+
+    <p>Não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+
+    <div class="voltar-btn">
+      <a href="index.html"><button>Voltar ao Início</button></a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 FormFit Academia.</p>
+  </footer>
+
+  <script type="module" src="js/auth.js"></script>
+</body>
+</html>
